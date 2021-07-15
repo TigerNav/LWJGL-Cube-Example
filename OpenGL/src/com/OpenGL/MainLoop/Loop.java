@@ -83,9 +83,9 @@ public class Loop {
 	
 	public void Update() {
 		
-		gameItem.setPosition(Mouse.mx / 800, -Mouse.my / 300, z);
 		
-		System.out.println(Mouse.mx / 800+","+ -Mouse.my / 300);
+		
+		
 		
 		shader.bind();
 		
